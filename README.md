@@ -21,6 +21,13 @@ In your `main.cpp` your RenderWindow must be declared outside of a funciton, and
  SFMLUtils utils;
  
  int main(){
-  utils.drawRect()
+  window.setFramerateLimit(60);
+  while(true){
+   window.clear();
+   
+   utils.drawRect(IntRect(20, 20, 100, 100), Color::Red);
+   
+   window.display();
+  }
  }
  ```
