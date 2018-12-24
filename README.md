@@ -39,7 +39,7 @@ Although not modifiable after drawing shapes, you can get their values.
 ```cpp
 sf::RectangleShape rect = utils.drawRect(IntRect(20, 20, 100, 100), Color::Red);
 if(rect.getGlobalBounds.intsects(player.getGlobalBounds()){
- # Collision true
+  // Collision true
 }
 ```
 
