@@ -8,7 +8,7 @@ Adds extra functionality to SFML in C++
 ## How to use
 **There are a few prerequisites before being able to use SFMLUtils**
 
-In your `main.cpp` your RenderWindow must be declared outside of a funciton, must be external, and must be called "window".
+In your `main.cpp` your RenderWindow must be declared outside of a funciton, and must be called "window".
  ```cpp
  #include <SFML/Graphics.hpp>
  #include "SFMLUtils.h"
@@ -17,9 +17,10 @@ In your `main.cpp` your RenderWindow must be declared outside of a funciton, mus
  using namespace std;
  using namespace sf;
  
- extern RenderWindow window(VideoMode(800, 600), "Title");
+ RenderWindow window(VideoMode(800, 600), "Title");
+ SFMLUtils utils;
  
  int main(){
- 
+  utils.drawRect()
  }
  ```
