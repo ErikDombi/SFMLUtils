@@ -7,6 +7,7 @@ Adds extra functionality to SFML in C++
 
 ## How to use
 **There are a few prerequisites before being able to use SFMLUtils**
+
 In your `main.cpp` your RenderWindow must be declared outside of a funciton, must be external, and must be called `window`.
  ```cpp
  #include <SFML/Graphics.hpp>
