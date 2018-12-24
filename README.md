@@ -44,7 +44,6 @@ if(rect.getGlobalBounds.intsects(player.getGlobalBounds()){
 ```
 
 **What not to do**
-**Example**
 ```cpp
 sf::RectangleShape rect = utils.drawRect(IntRect(20, 20, 100, 100), Color::Red);
 rect.setPosition(90, 50);
