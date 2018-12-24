@@ -32,7 +32,7 @@ In your `main.cpp` your RenderWindow must be declared outside of a funciton, and
  
 ## Diving Deeper
  
-SFMLUtils#drawRect, SFMLUtils#drawText, SFMLUtils#drawElipse also return their respective types.
+SFMLUtils#drawRect(), SFMLUtils#drawText(), SFMLUtils#drawElipse() also return their respective types.
 Although not modifiable after drawing shapes, you can get their values.
  
 **Example**
