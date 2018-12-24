@@ -5,7 +5,7 @@ Adds extra functionality to SFML in C++
 > - Probably most SFML users
 
 
-##How to use
+## How to use
 **There are a few prerequisites before being able to use SFMLUtils**
  - In your `main.cpp` your RenderWindow must be declared outside of a funciton, must be external, and must be called `window`.
  `extern RenderWindow window(VideoMode(800, 600), "Title");`
