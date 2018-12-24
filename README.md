@@ -20,14 +20,14 @@ In your `main.cpp` your RenderWindow must be declared outside of a funciton, and
  RenderWindow window(VideoMode(800, 600), "Title");
  SFMLUtils utils;
  
- int main(){
+ int main() {
   window.setFramerateLimit(60);
-  while(true){
+  while(true) {
+  
    window.clear();
-   
    utils.drawRect(IntRect(20, 20, 100, 100), Color::Red);
-   
    window.display();
+   
   }
  }
  ```
