@@ -2,7 +2,7 @@
 Adds extra functionality to SFML in C++
 
 > I just want to draw a damn line with one line of code.
-> - Probably most SFML users
+>- Probably most SFML users
 
 
 ## How to use
